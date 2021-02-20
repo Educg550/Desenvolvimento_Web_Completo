@@ -26,7 +26,7 @@ As tecnologias aplicadas nos projetos e modelos de páginas são:
 * WordPress
 
 ## 📂 Estrutura de pastas
-Cada pasta na raíz do repositório representa uma seção do curso, começando a partir de HTML5. Dentro destas, podemos encontrar uma pasta de revisão e de conceitos básicos de cada linguagem, feitas por mim, para fins de estudo e revisão.<br>
+Cada pasta na raíz do repositório representa uma seção do curso, começando a partir de HTML5. Dentro destas, podemos encontrar uma pasta de revisão e de conceitos básicos de cada linguagem, feitas por mim, para fins de estudo e revisão.
 
 Os projetos podem ser encontrados nas pastas de cada seção, com seus respectivos nomes e arquivos internos, e podem ser testados no navegador, ao abrir o seu arquivo _**index.html**_, presente na raíz da pasta do projeto. 
 
