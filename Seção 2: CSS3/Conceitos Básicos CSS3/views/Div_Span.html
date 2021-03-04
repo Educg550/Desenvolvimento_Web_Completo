@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div e Span</title>
+    <!-- Internal Style Sheet = CSS no mesmo arquivo que o HTML, porém, não é embutido nas tags, mas possui sua tag própria: <style>. Em certos casos continua sendo utilizado, mesmo não sendo totalmente recomendável -->
+    <style>
+      #header {
+        background: gray;
+      }
+
+      #content {
+          background: green;
+      }
+
+      .product {
+        color: honeydew;
+        padding: 10px;
+      }
+
+      #footer {
+          margin-top: 3rem;
+          background: darkgray;
+      }
+
+      .footer-content {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <!-- Inline Style = CSS embutido nas próprias tags HTML através do atributo style="" (não recomendado) -->
+      <img
+        src="../images/floop-logo.png"
+        alt="Lion Logo"
+        width="150"
+        height="150"
+      />
+      <ul>
+        <li>Home</li>
+        <li>Produtos</li>
+        <li>Contato</li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <div class="product">Produto 1</div>
+      <div class="product">Produto 2</div>
+      <div class="product">Produto 3</div>
+    </div>
+
+    <div id="footer">
+        <!-- span - mantém o seu conteúdo na mesma linha, diferente da div, que gera uma "caixa" divisória -->
+        <span class="footer-content">Todos os direitos reservados &copy;</span><span class="footer-content"> - 2021</span>
+    </div>
+  </body>
+</html>
