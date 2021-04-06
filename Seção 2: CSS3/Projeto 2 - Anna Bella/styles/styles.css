@@ -1,0 +1,51 @@
+.text {
+    margin: 1.5rem;
+}
+
+.img-campanhas {
+    border: 1rem solid #c3c3ae;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body {
+    background: url('../images/fundo.png') repeat;
+
+    font: normal 1rem 'Arial', sans-serif;
+    margin: auto;
+
+    text-align: center;
+    max-width: 900px;
+}
+
+a {
+    margin-top: 10rem;
+
+    text-decoration: none;
+    color: #4b556a;
+}
+
+nav {
+    font: bold 1.5rem 'Helvetica', sans-serif;
+
+    background: #c5c5b2;
+    padding: 1rem;
+    text-align: left;
+}
+
+section {
+    text-align: justify;
+    background: #e8e8d9;
+    padding: 2rem;
+}
+
+section h3 {
+    color: #828271;
+    font: bold 2rem 'Arial', sans-serif;
+}
+
+footer {
+    font: bold 1.5rem 'Times New Roman', serif;
+    margin: 2rem;
+}
