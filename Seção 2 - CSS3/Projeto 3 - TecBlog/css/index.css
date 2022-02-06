@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+
+a {
+  text-decoration: none;
+  color: #4e4e4e;
+
+  text-align: center;
+
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+a:hover {
+  background-color: #e6e6e6;
+  color: #f7b600 !important;
+
+  transition: 200ms;
+}
+
+/* Header and Nav */
+
+#header a:visited,
+#header a:link {
+  color: white;
+}
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+
+  padding: 0.4rem;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+  gap: 1.5rem;
+
+  background: #f7b600;
+}
+
+#white-logo {
+  color: white;
+}
+
+#nav {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 57.5rem;
+  margin: 1.5rem auto;
+}
+
+#posts {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+
+  width: 41.25rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+  padding: 1.2rem;
+
+  text-align: justify;
+  background-color: white;
+}
+
+.post-date {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+}
+
+.side-menu {
+  width: 15rem;
+  background: white;
+
+  padding: 0.8rem;
+}
+
+.side-text {
+  font-size: 0.8em;
+
+  padding: 0.6rem;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+
+  background: #ccc;
+  flex: 1;
+}
